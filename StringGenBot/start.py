@@ -12,15 +12,15 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""⦿ 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐖𝐀𝐒 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 [ ˛ 𝙃𝙀𝙇𝙇𝘼𝙎 . ](https://t.me/u0uu0)""",
+        text=f"""⦿ 𝐓𝐇𝐄 𝐁𝐎𝐓 𝐖𝐀𝐒 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 [ ˛ 𝘼𝘽𝙊𝘿┋🇮🇶₂₀₀₇ . ](https://t.me/u0uu0)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="‹ 𝐜𝐥𝐢𝐜𝐤 𝐭𝐨 𝐜𝐫𝐞𝐚𝐭𝐞 𝐚 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 ›", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("‹ ˛ 𝙃𝙀𝙇𝙇𝘼𝙎 . ›", url="https://t.me/u0uu0"),
-                    InlineKeyboardButton("‹ ˛ 𝙃𝙀𝙇𝙇𝘼𝙎 . ›", user_id=OWNER_ID)
+                    InlineKeyboardButton("‹ ˛ 𝘼𝘽𝙊𝘿┋🇮🇶₂₀₀₇ . ›", url="https://t.me/u0uu0"),
+                    InlineKeyboardButton("‹ ˛ 𝘼𝘽𝙊𝘿┋🇮🇶₂₀₀₇ . ›", user_id=OWNER_ID)
                 ]
             ]
         ),
